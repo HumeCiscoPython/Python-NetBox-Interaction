@@ -29,11 +29,6 @@ def get_vlans (self):
         netbox.ipam.create_vlan(vlan_number,vlan_name)
 
 
-
-
- 
-
-
 #add_manufacturers(netbox,manufacturers)
 def add_manufacturers(self,manufac):
     self.list = list
